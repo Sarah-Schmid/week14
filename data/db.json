@@ -1,0 +1,10 @@
+{
+    "reviews":[
+        {
+            "reviewBody": "test review number 1"
+        },
+        {
+            "reviewBody": "test review number 2"
+        },
+    ]
+}

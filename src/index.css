@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#login-form{
+  border-radius: 8px;
+  max-width: 600px;
+  background-color: white;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1)  ; 
+  margin: 0 auto;
+  margin-top: 40px;
+  border: 1px solid #ccd9ff;
+}
+
+#nav-bar{
+  border-bottom: 1px solid #ccd9ff;;
+}
+
+#login-label {
+  padding: 20px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #ccd9ff;
+  background-color: #e2e8f9;
+  color: #0d6efd;
+}
+
+#form{
+  padding: 20px;
+}
+
+#logo{
+  font-weight: 600;
+  color: #0d6efd;
+}
+
+#movie-card{
+  margin: 0 auto;
+  margin-top: 40px;}
+
+#rating {
+  margin: 8px 0 8px 0;}
+
+input[type="radio"]{display:none;}
+
+.star:hover{
+  cursor: pointer;
+  transition: 0.2s;}
+
+.review-entry{
+  padding: 16px;
+  background-color: #ccd9ff;}
+
+textarea, input {
+border: #aabffc 1px solid;
+border-radius: 8px;
+
+  }
+
+.review-entry button {
+  border: 1px solid #aabffc;
+  border-radius: 8px;
+  padding: 4px 20px;
+  background-color: #fff;
+  color: #0d6efd;
+  margin-top: 8px;
+}
+
+.review-entry button:hover{
+  background-color: #0d6efd;
+  color: #fff;
+  transition: 0.2s;
+}
+
+.new-review {
+  padding: 16px;
+  background-color: #e2e8f9;
+}
+
+@media only screen and (min-width: 1000px) {#movies{display: flex;
+margin: auto;}}
